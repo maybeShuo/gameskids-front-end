@@ -73,7 +73,7 @@ gulp.task("dev", [ "clean" ], cb => {
         historyApiFallback: true,
         stats: { colors: true },
         contentBase: "./public"
-    }).listen(3001, "localhost", err => {
+    }).listen(3000, "localhost", err => {
         if (err) {
             throw new gutil.PluginError("webpack-dev-server", err);
         }
