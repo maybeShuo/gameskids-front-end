@@ -10,7 +10,9 @@ module.exports = {
 
     entry: {
         vendor: [ "babel-polyfill", "jquery"],
-        activity: [ "./activity/index.js", "./activity/resource/index.less" ]
+        login: [ "./login/index.js", "./login/resource/index.less" ],
+        home: [ "./home/index.js", "./home/resource/index.less" ],
+        course: [ "./course/index.js", "./course/resource/index.less" ]
     },
 
     output: {
